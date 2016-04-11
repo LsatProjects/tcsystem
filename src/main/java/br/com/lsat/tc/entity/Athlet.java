@@ -1,7 +1,9 @@
 package br.com.lsat.tc.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -20,5 +22,5 @@ public class Athlet {
 	@Id
 	private Long id;
 	private String name;
-
+	private String email;
 }
